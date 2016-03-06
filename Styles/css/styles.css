@@ -1,0 +1,26 @@
+body {
+  background-color: red;
+}
+p {
+  color: blue;
+}
+p {
+  background-color: violet;
+  font-size: 40px;
+}
+.aaa {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: forestgreen;
+}
+@media (min-width: 768px) {
+  .aaa {
+    float: left;
+    width: 25%;
+  }
+}
+.bbb {
+  color: black;
+}
