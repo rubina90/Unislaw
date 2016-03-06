@@ -9,7 +9,7 @@ gulp.task('watch', function () {
 
 gulp.task('less', function () {
 
-    return gulp.src('./styles/less/styles.less')
+    return gulp.src('./External/Bootstrap/less/bootstrap.less')
         .pipe(less().on('error', function (err) {
             console.log(err);
         }))
