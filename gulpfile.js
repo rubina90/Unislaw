@@ -4,10 +4,21 @@ var less = require('gulp-less'),
 
 
 gulp.task('watch', function () {
-    gulp.watch('**/*.less', ['less']);
+    gulp.watch('./Styles/less/*.less', ['my-less']);
 });
 
-gulp.task('less', function () {
+gulp.task('my-less', function () {
+
+    return gulp.src('./Styles/less/styles.less')
+        .pipe(less().on('error', function (err) {
+            console.log(err);
+        }))
+
+        .pipe(gulp.dest('./styles/css'));
+
+});
+
+gulp.task('bootstrap-less', function () {
 
     return gulp.src('./External/Bootstrap/less/bootstrap.less')
         .pipe(less().on('error', function (err) {
@@ -18,4 +29,5 @@ gulp.task('less', function () {
 
 });
 
-gulp.task('default', ['less', 'watch']);
+
+gulp.task('default', ['bootstrap-less','my-less', 'watch']);
