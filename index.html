@@ -2,6 +2,7 @@
 <html>
 <head lang="en">
     <!--Import Google Icon Font-->
+    <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
@@ -20,15 +21,45 @@
 <script src="Scripts/Scripts.js"></script>
 
 <nav>
-    <ul class="right hide-on-med-and-down">
-        <li><a href="#!">First Sidebar Link</a></li>
-        <li><a href="#!">Second Sidebar Link</a></li>
-    </ul>
     <ul id="slide-out" class="side-nav">
-        <li><a href="#!">First Sidebar Link</a></li>
-        <li><a href="#!">Second Sidebar Link</a></li>
+        <li class="slide-nav-logo">Stajnia u Kalinów</li>
+        <li><a href="#!">Agroturystyka</a></li>
+        <li><a href="#!">Konie</a></li>
+        <li><a href="#!">Atrakcje regionu</a></li>
+        <li><a href="#!">Galeria</a></li>
+        <li><a href="#!">Kontakt</a></li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#!">First</a></li>
+                            <li><a href="#!">Second</a></li>
+                            <li><a href="#!">Third</a></li>
+                            <li><a href="#!">Fourth</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="right hide-on-med-and-down">
+        <li><a href="#!">Agroturystyka</a></li>
+        <li><a href="#!">Konie</a></li>
+        <li><a href="#!">Atrakcje regionu</a></li>
+        <li><a href="#!">Galeria</a></li>
+        <li><a href="#!">Kontakt</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+        <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">First</a></li>
+            <li><a href="#!">Second</a></li>
+            <li><a href="#!">Third</a></li>
+            <li><a href="#!">Fourth</a></li>
+        </ul>
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
 </nav>
 
 <div class="mainContainer">

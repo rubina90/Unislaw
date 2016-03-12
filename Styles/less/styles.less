@@ -5,3 +5,46 @@
 
   .container-fluid();
 }
+
+nav {
+  background-color: @commonColor;
+  .side-nav {
+
+    .collapsible-body {
+      li {
+        a{
+          font-weight: normal;
+        }
+
+      }
+
+    }
+
+    li {
+      padding: 0;
+
+      a {
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      //border-bottom: @lightGreyColor 1px solid;
+    }
+
+
+    .slide-nav-logo {
+      padding: 10px;
+      text-align: center;
+      height: 100px;
+      font-family: 'Lobster', cursive;
+      color: @baseColor;
+      font-size: 23px;
+      border-bottom: 1px @lightGreyColor solid;
+      &:hover {
+        background-color: white;
+      }
+
+    }
+
+  }
+}

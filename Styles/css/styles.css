@@ -1111,9 +1111,37 @@ th {
     display: none !important;
   }
 }
+html {
+  font-size: 16px;
+}
 .mainContainer {
   margin-right: auto;
   margin-left: auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+nav {
+  background-color: #4caf50;
+}
+nav .side-nav .collapsible-body li a {
+  font-weight: normal;
+}
+nav .side-nav li {
+  padding: 0;
+}
+nav .side-nav li a {
+  font-weight: bold;
+  font-size: 14px;
+}
+nav .side-nav .slide-nav-logo {
+  padding: 10px;
+  text-align: center;
+  height: 100px;
+  font-family: 'Lobster', cursive;
+  color: #424242;
+  font-size: 23px;
+  border-bottom: 1px #f5f5f5 solid;
+}
+nav .side-nav .slide-nav-logo:hover {
+  background-color: white;
 }
