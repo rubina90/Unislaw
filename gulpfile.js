@@ -18,16 +18,18 @@ gulp.task('my-less', function () {
 
 });
 
-gulp.task('bootstrap-less', function () {
-
-    return gulp.src('./External/Bootstrap/less/bootstrap.less')
-        .pipe(less().on('error', function (err) {
-            console.log(err);
-        }))
-
-        .pipe(gulp.dest('./styles/css'));
-
-});
 
 
-gulp.task('default', ['bootstrap-less','my-less', 'watch']);
+//gulp.task('bootstrap-less', function () {
+//
+//    return gulp.src('./External/Bootstrap/less/bootstrap.less')
+//        .pipe(less().on('error', function (err) {
+//            console.log(err);
+//        }))
+//
+//        .pipe(gulp.dest('./styles/css'));
+//
+//});
+
+
+gulp.task('default', ['my-less', 'watch']);
