@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a87015e-0dc9-467e-8975-938310a888bf" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Dorota Przeniosło\WebstormProjects\UnislawWeb\.idea\UnislawWeb.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dorota Przeniosło\WebstormProjects\UnislawWeb\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dorota Przeniosło\WebstormProjects\UnislawWeb\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dorota Przeniosło\WebstormProjects\UnislawWeb\.idea\modules.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Dorota Przeniosło\WebstormProjects\UnislawWeb\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dorota Przeniosło\WebstormProjects\UnislawWeb\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Dorota Przeniosło\WebstormProjects\UnislawWeb\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="UnislawWeb.iws" />
@@ -164,24 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,6 +175,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="UnislawWeb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -395,7 +390,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457805531248</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="idea deletion">
+      <created>1457805962732</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1457805962732</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -475,7 +476,8 @@
     <MESSAGE value="js material module" />
     <MESSAGE value="navbar" />
     <MESSAGE value="navbar searchbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar searchbox" />
+    <MESSAGE value="idea deletion" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea deletion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
