@@ -12,6 +12,7 @@ gulp.task('my-less', function () {
     return gulp.src('./Styles/less/styles.less')
         .pipe(less().on('error', function (err) {
             console.log(err);
+            this.emit('end');
         }))
 
         .pipe(gulp.dest('./styles/css'));
