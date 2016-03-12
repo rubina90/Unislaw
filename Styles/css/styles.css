@@ -1111,6 +1111,9 @@ th {
     display: none !important;
   }
 }
+.mk-noHoverBack:hover {
+  background-color: transparent;
+}
 html {
   font-size: 16px;
 }
@@ -1143,5 +1146,25 @@ nav .side-nav .slide-nav-logo {
   border-bottom: 1px #f5f5f5 solid;
 }
 nav .side-nav .slide-nav-logo:hover {
-  background-color: white;
+  background-color: transparent;
+}
+nav .side-nav .slide-nav-search {
+  color: #424242;
+}
+nav .side-nav .slide-nav-search:hover {
+  background-color: transparent;
+}
+nav .searchBox {
+  float: right;
+}
+nav .searchBox .searchIcon {
+  cursor: pointer;
+  padding-right: 10px;
+  display: inline;
+  line-height: 30px;
+  height: 30px;
+}
+nav .searchBox input {
+  width: 0px;
+  border-bottom-color: white;
 }

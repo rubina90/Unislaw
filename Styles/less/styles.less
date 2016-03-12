@@ -40,11 +40,28 @@ nav {
       color: @baseColor;
       font-size: 23px;
       border-bottom: 1px @lightGreyColor solid;
-      &:hover {
-        background-color: white;
-      }
-
+      .mk-noHoverBack();
     }
+    .slide-nav-search {
+    color: @baseColor;
+    .mk-noHoverBack();
+   }
 
+  }
+
+  .searchBox {
+    float: right;
+    .searchIcon {
+      cursor: pointer;
+      padding-right: 10px;
+      display: inline;
+      line-height: 30px;
+      height: 30px;
+    }
+    input {
+      //display: none;
+      width: 0px;
+      border-bottom-color: white;
+    }
   }
 }
